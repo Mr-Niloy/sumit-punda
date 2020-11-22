@@ -1,0 +1,259 @@
+/* * {
+    border: 1px solid red;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+/* body{background: linear-gradient(red,pink);} */
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.fs {
+    font-size: 2rem !important;
+    color: rgb(49, 24, 24) !important;
+}
+
+.ff {
+    font-family: 'Courgette', cursive !important;
+    color: white !important;
+}
+
+.ff a {
+    color: #5a5959 !important;
+}
+
+.ff a:hover {
+    color: black !important;
+    border-bottom: 1px solid black;
+}
+
+.src {
+    /* border: 2px solid red; */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    padding: 5px 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    /* border: transparent; */
+}
+
+#search {
+    /* background: white; */
+    height: 1.5rem;
+    width: 15rem;
+    font-family: 'Courgette', cursive;
+    border: none;
+}
+
+#sec-b {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    /* border: 1px solid tomato; */
+    border: transparent;
+    font-family: 'Bungee', cursive;
+    border-radius: 10px;
+}
+
+/* #sec-b:hover{
+    /* background: tomato; */
+
+/* color: black;
+    border: 1px solid rgb(0, 0, 0); */
+
+/* } */
+
+nav {
+    background: linear-gradient(30deg, #0ce442fb, rgb(0, 183, 255));
+    padding: 0 10px !important;
+}
+
+/* banner-effact */
+
+.carousel-item img {
+    filter: brightness(0.7);
+}
+
+/* latter for some itam */
+
+.part-2 {
+    width: auto;
+    height: 5vh;
+    background: linear-gradient(60deg, rgb(0, 183, 255), #0ce442fb);
+    box-shadow: 2px 2px 5px gray;
+    /* margin: 2px 0; */
+    color: #000;
+}
+
+.part-2 p {
+    font-size: 1.5em;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    font-family: 'Nerko One', cursive;
+}
+
+/* =================================================================================== */
+
+/* new section */
+
+.section {
+    /* border: 3px solid rgb(0, 0, 0); */
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    /* background: rgb(214, 153, 153); */
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.laft-box {
+    width: 50%;
+    /* height: 100Vh; */
+    /* background: tomato; */
+    margin: 0 5px;
+}
+
+.right-box {
+    width: 50%;
+    /* height: 100VW; */
+    /* background: rgb(204, 48, 204); */
+    margin: 0 5px;
+}
+
+.laft-box .itam {
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+
+.laft-box .itam img {
+    /* border: 2px solid white; */
+    width: 15vw;
+    /* height: auto; */
+    display: flex;
+    margin: auto;
+}
+
+.laft-box .itam p {
+    /* border: 2px solid; */
+    width: fit-content;
+    margin: auto;
+}
+
+.right-box .itam {
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+
+.right-box .itam img {
+    /* border: 2px solid white; */
+    width: 15vw;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.right-box .itam p {
+    /* border: 2px solid; */
+    width: fit-content;
+    margin: auto;
+}
+
+.itam {
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.itam li {
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.itam li .red {
+    background-color: red;
+    /* border: 1px solid black; */
+    text-decoration: line-through;
+}
+
+.itam .p-l {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    font-family: 'Caveat', cursive;
+    /* border-bottom: 1px solid black; */
+}
+
+.itam .p-l .btn {
+    border: 2px solid black;
+    width: fit-content;
+    height: auto;
+    margin: 5px auto;
+    padding: 2px 2px    ;
+    font-family: 'Caveat', cursive;
+    border: none;
+    background: linear-gradient(60deg, rgb(0, 183, 255), #0ce442fb);
+    display: block;
+}
+.itam .p-l .btn button {
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: 2px 2px;
+    padding: 5px auto;
+    font-family: 'Caveat', cursive;
+    border: none;
+    background:white;
+    color: black;
+}
+/* part 3 */
+.part-3 {
+    width: auto;
+    height: 5vh;
+    background: linear-gradient(60deg, rgb(55, 160, 201),rgba(196, 228, 12, 0.984));
+    box-shadow: 2px 2px 5px gray;
+    /* margin: 2px 0; */
+    color: #000;
+}
+.part-3 p {
+    font-size: 1.5em;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    font-family: 'Nerko One', cursive;
+}
+.part-4 {
+    width: auto;
+    height: 5vh;
+    background: linear-gradient(60deg, rgb(55, 160, 201),rgba(196, 228, 12, 0.984));
+    box-shadow: 2px 2px 5px gray;
+    /* margin: 2px 0; */
+    color: #000;
+}
+.part-4 p {
+    font-size: 1.5em;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    font-family: 'Nerko One', cursive;
+}
